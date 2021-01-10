@@ -12,6 +12,8 @@ Flash Rasperry Pi OS 64-Bit sd card
 On terminal do this:
 
 ```
+  cd
+  
   wget -O SetupStepmania64.sh https://raw.githubusercontent.com/mtoensing/Moondance-StepMania64-pi4/master/SetupStepmania64.sh
 
   chmod +x SetupStepmania64.sh
