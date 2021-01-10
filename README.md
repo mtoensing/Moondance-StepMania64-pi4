@@ -2,8 +2,8 @@
 
 This a a working version of StepMania with **60** **FPS** on a Raspberry Pi 4. Based on the work of these awesome guys: https://projectmoon.dance/ 
 
-# No overclocking needed
-# No lag
+* No overclocking needed
+* No lag
 
 ## Quick Start
 
