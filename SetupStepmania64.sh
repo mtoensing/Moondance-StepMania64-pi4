@@ -16,6 +16,11 @@ if [ -d ".stepmania-5.3" ]; then
   exit 1
 fi
 
+if [ -d "Moondance-StepMania64-pi4" ]; then
+  echo "Directory Moondance-StepMania64-pi4 already exists!  Exiting... "
+  exit 1
+fi
+
 echo "Updating packages..."
 sudo apt-get update
 sudo apt-get upgrade
