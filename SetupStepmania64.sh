@@ -11,8 +11,8 @@ if [ -d "Stepmania64" ]; then
   exit 1
 fi
 
-if [ -d ".stepmania_53" ]; then
-  echo "Directory Stepmania64 already exists!  Exiting... "
+if [ -d ".stepmania-5.3" ]; then
+  echo "Hidden directory .stepmania-5.3 already exists!  Exiting... "
   exit 1
 fi
 
@@ -29,4 +29,4 @@ sudo apt install libopengl0
 echo "Cloning repository"
 git clone https://github.com/mtoensing/Moondance-StepMania64-pi4.git
 
-cp -r Moondance-StepMania64-pi4/pi/* ~/pi
+cp -r Moondance-StepMania64-pi4/pi/* ~/
