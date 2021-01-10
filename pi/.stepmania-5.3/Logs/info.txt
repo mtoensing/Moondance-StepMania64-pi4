@@ -1,0 +1,75 @@
+StepMania5.3-git-ef310a789c
+Compiled 20201217 @ 16:37:44 (build ef310a789c)
+Log starting 2021-01-10 14:55:22
+Loading window: sdl
+OS: Linux ver 051005
+Crash backtrace component: no backtrace
+Crash lookup component: backtrace_symbols
+Runtime library: glibc 2.28
+Threads library: NPTL 2.28
+Sound writeahead has been overridden to 4096
+ALSA: Advanced Linux Sound Architecture Driver Version k5.10.5-v8+.
+ALSA Driver: 0: bcm2835 HDMI 1 [b1], device 0: bcm2835 HDMI 1 [bcm2835 HDMI 1], 4/4 subdevices avail
+ALSA Driver: 1: bcm2835 Headphones [Headphones], device 0: bcm2835 Headphones [bcm2835 Headphones], 4/4 subdevices avail
+ALSA: Mixing at 44100hz
+Sound driver: ALSA-sw
+Lights driver: SystemMessage
+Lights driver: Export
+Video renderers: 'opengl,glad'
+Graphics Manager:  OpenGL Vendor: Broadcom
+Graphics Manager:  OpenGL Renderer: V3D 4.2
+Graphics Manager:  OpenGL Version: 2.1 Mesa 19.3.2
+Graphics Manager:  OpenGL Max texture size: 4096
+Graphics Manager:  OpenGL Texture units: 8
+Graphics Manager:  GLU Version: 1.3
+Graphics Manager:  OpenGL Extensions:
+  GL_AMD: conservative_depth, multi_draw_indirect, shader_trinary_minmax, texture_texture4
+  GL_APPLE_packed_pixels
+  GL_ARB: ES2_compatibility, ES3_compatibility, arrays_of_arrays, base_instance, buffer_storage, 
+    clear_buffer_object, color_buffer_float, compressed_texture_pixel_storage, compute_shader, 
+    compute_variable_group_size, conservative_depth, copy_buffer, debug_output, depth_buffer_float, depth_texture, 
+    draw_buffers, draw_elements_base_vertex, draw_indirect, draw_instanced, explicit_attrib_location, 
+    explicit_uniform_location, fragment_coord_conventions, fragment_program, fragment_program_shadow, 
+    fragment_shader, framebuffer_no_attachments, framebuffer_object, framebuffer_sRGB, get_program_binary, 
+    get_texture_sub_image, half_float_pixel, half_float_vertex, instanced_arrays, internalformat_query, 
+    internalformat_query2, invalidate_subdata, map_buffer_alignment, map_buffer_range, multi_bind, 
+    multi_draw_indirect, multisample, multitexture, occlusion_query, occlusion_query2, parallel_shader_compile, 
+    pixel_buffer_object, point_parameters, point_sprite, program_interface_query, provoking_vertex, robustness, 
+    sampler_objects, separate_shader_objects, shader_atomic_counter_ops, shader_atomic_counters, 
+    shader_bit_encoding, shader_image_load_store, shader_image_size, shader_objects, shader_storage_buffer_object, 
+    shader_texture_lod, shading_language_100, shading_language_420pack, shading_language_packing, shadow, 
+    stencil_texturing, sync, texture_border_clamp, texture_compression, texture_cube_map, texture_env_add, 
+    texture_env_combine, texture_env_crossbar, texture_env_dot3, texture_float, texture_gather, 
+    texture_mirrored_repeat, texture_multisample, texture_non_power_of_two, texture_query_levels, 
+    texture_query_lod, texture_rectangle, texture_rg, texture_rgb10_a2ui, texture_stencil8, texture_storage, 
+    texture_storage_multisample, texture_swizzle, transform_feedback2, transform_feedback_instanced, 
+    transpose_matrix, uniform_buffer_object, vertex_array_object, vertex_attrib_binding, vertex_buffer_object, 
+    vertex_program, vertex_shader, vertex_type_2_10_10_10_rev, window_pos
+  GL_ATI: blend_equation_separate, draw_buffers, fragment_shader, separate_stencil, texture_env_combine3, 
+    texture_float
+  GL_EXT: EGL_sync, abgr, bgra, blend_color, blend_equation_separate, blend_func_separate, blend_minmax, 
+    blend_subtract, compiled_vertex_array, copy_texture, draw_buffers2, draw_instanced, draw_range_elements, 
+    fog_coord, framebuffer_blit, framebuffer_multisample, framebuffer_multisample_blit_scaled, framebuffer_object, 
+    framebuffer_sRGB, gpu_program_parameters, gpu_shader4, multi_draw_arrays, packed_depth_stencil, packed_float, 
+    packed_pixels, pixel_buffer_object, point_parameters, provoking_vertex, rescale_normal, secondary_color, 
+    separate_specular_color, shader_integer_mix, shadow_funcs, stencil_two_side, stencil_wrap, subtexture, 
+    texture, texture3D, texture_array, texture_buffer_object, texture_cube_map, texture_edge_clamp, 
+    texture_env_add, texture_env_combine, texture_env_dot3, texture_integer, texture_lod_bias, texture_object, 
+    texture_rectangle, texture_sRGB, texture_sRGB_decode, texture_shared_exponent, texture_snorm, texture_swizzle, 
+    transform_feedback, vertex_array
+  GL_IBM: multimode_draw_arrays, rasterpos_clip, texture_mirrored_repeat
+  GL_INGR_blend_func_separate
+  GL_KHR: context_flush_control, debug, no_error, parallel_shader_compile, texture_compression_astc_ldr, 
+    texture_compression_astc_sliced_3d
+  GL_MESA: pack_invert, shader_integer_functions, texture_signed_rgba, window_pos
+  GL_NV: blend_square, fog_distance, light_max_exponent, packed_depth_stencil, primitive_restart, 
+    texgen_reflection, texture_env_combine4, texture_rectangle
+  GL_OES: EGL_image, read_format
+  GL_SGIS: generate_mipmap, texture_border_clamp, texture_edge_clamp, texture_lod
+  GL_SUN_multi_draw_arrays
+OpenGL Fullscreen 720x400 16 color 32 texture 60Hz Vsync SmoothLines
+Outfox Engine: Legacy Joystick subsystem - Found 2 joysticks
+Outfox Engine: Legacy Joystick subsystem - Joy device added
+Outfox Engine: Legacy Joystick subsystem -   0: 'WiseGroup.,Ltd Positive Gaming Impact USB pad' axes: 2, hats: 0, buttons: 10
+Outfox Engine: Legacy Joystick subsystem - Joy device added
+Outfox Engine: Legacy Joystick subsystem -   1: 'WiseGroup.,Ltd Positive Gaming Impact USB pad' axes: 2, hats: 0, buttons: 10
