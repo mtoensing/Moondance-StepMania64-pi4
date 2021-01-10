@@ -31,3 +31,7 @@ git clone https://github.com/mtoensing/Moondance-StepMania64-pi4.git
 
 cp -r Moondance-StepMania64-pi4/pi/.stepmania-5.3/ ~/
 cp -r Moondance-StepMania64-pi4/pi/StepMania64/ ~/
+
+chmod +x ~/StepMania64/stepmania
+
+./stepmania
