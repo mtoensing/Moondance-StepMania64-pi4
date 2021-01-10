@@ -8,7 +8,9 @@ Download Rasperry Pi OS 64-Bit
 e.g. https://downloads.raspberrypi.org/raspios_arm64/images/raspios_arm64-2020-05-28/2020-05-27-raspios-buster-arm64.zip 
 
 Flash Rasperry Pi OS 64-Bit sd card
+wget -O SetupMinecraft.sh https://raw.githubusercontent.com/mtoensing/Moondance-StepMania64-pi4/master/SetupStepmania64.sh
 
+chmod +x SetupMinecraft.sh
 
-
+./SetupStepmania64.sh
 
