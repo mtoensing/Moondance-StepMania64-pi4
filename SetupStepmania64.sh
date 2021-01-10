@@ -41,6 +41,8 @@ cp /home/pi/Moondance-StepMania64-pi4/pi/StepMania64.desktop /home/pi/Desktop/
 echo "Copying StepMania to autostart"
 cp /home/pi/Moondance-StepMania64-pi4/pi/StepMania64.desktop /home/pi/.config/autostart/
 
-chmod +x ~/StepMania64/stepmania
+chmod +x /home/pi/Stepmania64/stepmania
+
+cd /home/pi/Stepmania64
 
 ./stepmania
