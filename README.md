@@ -1,4 +1,4 @@
-# Moondance StepMania64 on Raspberry Pi 4
+# WORK IN PROGRESS! This is not ready und tested! Moondance StepMania64 on Raspberry Pi 4
 
 A working version of StepMania with 60 FPS on a Raspberry Pi 4. Based on the work of these awesome guys: https://projectmoon.dance/
 
