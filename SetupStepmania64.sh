@@ -36,7 +36,7 @@ git clone https://github.com/mtoensing/Moondance-StepMania64-pi4.git
 
 echo "Copying StepMania files..."
 cp -r /home/pi/Moondance-StepMania64-pi4/pi/.stepmania-5.3 /home/pi/
-cp -r /home/pi/Moondance-StepMania64-pi4/pi/StepMania64 /home/pi/
+cp -r /home/pi/Moondance-StepMania64-pi4/pi/Stepmania64/ /home/pi/
 cp /home/pi/Moondance-StepMania64-pi4/pi/StepMania64.desktop /home/pi/Desktop/
 echo "Copying StepMania to autostart"
 cp /home/pi/Moondance-StepMania64-pi4/pi/StepMania64.desktop /home/pi/.config/autostart/
