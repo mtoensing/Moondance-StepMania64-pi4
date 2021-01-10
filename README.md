@@ -1,4 +1,4 @@
-# **Moondance** is StepMania64 with 60 FPS on Raspberry Pi 4
+# **Moondance** is StepMania with 60 FPS on Raspberry Pi 4
 
 This a a working version of StepMania with **60** **FPS** on a Raspberry Pi 4. Based on the work of these awesome guys: https://projectmoon.dance/ 
 
