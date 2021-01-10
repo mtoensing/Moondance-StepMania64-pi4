@@ -2,7 +2,7 @@
 # Moondance StepMania64 installation script by Marc Tönsing
 
 echo "Moondance StepMania64 installation script V1.0"
-echo "Latest version always at https://github.com/mtoensing/Moondance-StepMania64-pi4"
+echo "Latest version is always at https://github.com/mtoensing/Moondance-StepMania64-pi4"
 
 cd
 
@@ -29,8 +29,12 @@ sudo apt install libopengl0
 echo "Cloning repository"
 git clone https://github.com/mtoensing/Moondance-StepMania64-pi4.git
 
-cp -r Moondance-StepMania64-pi4/pi/.stepmania-5.3/ ~/
-cp -r Moondance-StepMania64-pi4/pi/StepMania64/ ~/
+echo "Copying StepMania files..."
+cp -r Moondance-StepMania64-pi4/pi/.stepmania-5.3/ /home/pi/
+cp -r Moondance-StepMania64-pi4/pi/StepMania64/ /home/pi/
+cp Moondance-StepMania64-pi4/pi/StepMania64.desktop /home/pi/Desktop/
+echo "Copying StepMania to autostart"
+cp Moondance-StepMania64-pi4/pi/StepMania64.desktop /home/pi/.config/autostart/
 
 chmod +x ~/StepMania64/stepmania
 
