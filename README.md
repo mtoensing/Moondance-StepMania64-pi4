@@ -7,8 +7,7 @@ This a a working version of StepMania with **60** **FPS** on a Raspberry Pi 4. B
 
 ## Quick Start
 
-1. Download Rasperry Pi OS 64-Bit
-e.g. https://downloads.raspberrypi.org/raspios_arm64/images/raspios_arm64-2020-05-28/2020-05-27-raspios-buster-arm64.zip
+1. Download Rasperry Pi OS *64-Bit+ https://downloads.raspberrypi.org/raspios_arm64/images/raspios_arm64-2020-05-28/2020-05-27-raspios-buster-arm64.zip
 
 2. Flash Rasperry Pi OS 64-Bit sd card
 
