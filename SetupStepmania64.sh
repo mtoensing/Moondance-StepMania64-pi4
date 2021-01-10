@@ -29,4 +29,5 @@ sudo apt install libopengl0
 echo "Cloning repository"
 git clone https://github.com/mtoensing/Moondance-StepMania64-pi4.git
 
-cp -r Moondance-StepMania64-pi4/pi/* ~/
+cp -r Moondance-StepMania64-pi4/pi/.stepmania-5.3/ ~/
+cp -r Moondance-StepMania64-pi4/pi/StepMania64/ ~/
