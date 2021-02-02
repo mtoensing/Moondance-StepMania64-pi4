@@ -1,15 +1,19 @@
-# **Moondance** is StepMania64 with 60 FPS on Raspberry Pi 4!
+# **Moondance** is StepMania with 60 FPS on Raspberry Pi 4
 
-A working version of StepMania with **60** **FPS** on a Raspberry Pi 4. Based on the work of these awesome guys: https://projectmoon.dance/
+This a a working version of StepMania with **60** **FPS** on a Raspberry Pi 4. Based on the work of these awesome guys: https://projectmoon.dance/ 
+
+* No overclocking needed
+* No lag
 
 ## Quick Start
 
-Download Rasperry Pi OS 64-Bit
-e.g. https://downloads.raspberrypi.org/raspios_arm64/images/raspios_arm64-2020-05-28/2020-05-27-raspios-buster-arm64.zip
+1. Download Rasperry Pi OS *64-Bit* https://downloads.raspberrypi.org/raspios_arm64/images/raspios_arm64-2020-05-28/2020-05-27-raspios-buster-arm64.zip
 
-Flash Rasperry Pi OS 64-Bit sd card
+2. Flash Rasperry Pi OS 64-Bit sd card
 
-On terminal do this:
+3. Start the Pi 4, connect a keyboard to it and start a Terminal.
+
+4. On terminal do this:
 
 ```
   cd
