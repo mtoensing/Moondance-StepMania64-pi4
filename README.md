@@ -1,9 +1,10 @@
 # **Moondance** is StepMania with 60 FPS on Raspberry Pi 4
 
-This a a working version of StepMania with **60** **FPS** on a Raspberry Pi 4. Based on the work of these awesome guys: https://projectmoon.dance/ 
+This a a working version of StepMania with **60** **FPS** on a Raspberry Pi 4. Based on the work of these awesome guys: https://projectmoon.dance/
 
 * No overclocking needed
 * No lag
+* Tested and configured with these usb dance mats: https://marc.tv/out/dmat 
 
 ## Quick Start
 
