@@ -25,9 +25,6 @@ echo "Updating packages..."
 sudo apt-get update
 sudo apt-get upgrade
 
-echo "creating autostart folder..."
-mkdir -p ~/.config/autostart
-
 echo "Installing git..."
 sudo apt-get install git
 
@@ -45,6 +42,8 @@ cp -r /home/pi/Moondance-StepMania64-pi4/pi/.stepmania-5.3 /home/pi/
 cp -r /home/pi/Moondance-StepMania64-pi4/pi/Stepmania64/ /home/pi/
 cp /home/pi/Moondance-StepMania64-pi4/pi/StepMania64.desktop /home/pi/Desktop/
 
+echo "creating autostart folder..."
+mkdir -p /home/pi/.config/autostart
 echo "Copying StepMania to autostart"
 cp /home/pi/Moondance-StepMania64-pi4/pi/StepMania64.desktop /home/pi/.config/autostart/
 
