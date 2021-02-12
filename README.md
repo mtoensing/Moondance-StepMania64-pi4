@@ -27,3 +27,7 @@ This a a working version of StepMania with **60** **FPS** on a Raspberry Pi 4. B
 
   ./SetupStepmania64.sh
 ```
+
+## Tutorial 
+
+https://marc.tv/stepmania-auf-einem-raspberry-pi-4-installieren/ (German)
