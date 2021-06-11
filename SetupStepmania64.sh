@@ -34,6 +34,12 @@ sudo apt-get install libopengl0
 echo "Installing latest mesa packages..."
 sudo apt-get install libglu1-mesa
 
+echo "Installing unclutter (to auto-hide mouse)..."
+sudo apt-get install unclutter
+
+echo "Removing Pi setup wizard autostart"
+sudo rm /etc/xdg/autostart/piwiz.desktop
+
 echo "Cloning repository"
 git clone https://github.com/mtoensing/Moondance-StepMania64-pi4.git
 
@@ -46,12 +52,16 @@ echo "creating autostart folder..."
 mkdir -p /home/pi/.config/autostart
 echo "Copying StepMania to autostart"
 cp /home/pi/Moondance-StepMania64-pi4/pi/StepMania64.desktop /home/pi/.config/autostart/
+echo "Copying Unclutter to autostart"
+cp /home/pi/Moondance-StepMania64-pi4/pi/Unclutter.desktop /home/pi/.config/autostart/
 
 echo "Making files executable"
 chmod +x /home/pi/Desktop/StepMania64.desktop
 chmod +x /home/pi/.config/autostart/StepMania64.desktop
+chmod +x /home/pi/.config/autostart/Unclutter.desktop
 chmod +x /home/pi/Stepmania64/stepmania
 
 cd /home/pi/Stepmania64
 
+unclutter &
 ./stepmania
