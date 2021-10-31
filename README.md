@@ -31,3 +31,7 @@ This a a working version of StepMania with **60** **FPS** on a Raspberry Pi 4. B
 ## Tutorial 
 
 https://marc.tv/stepmania-auf-einem-raspberry-pi-4-installieren/ (German)
+
+## If sound volume is too low
+
+Enter the command 'alsamixer' on a terminal and press F6. Select "HDMI" and increase the volume with the up arrow key.
