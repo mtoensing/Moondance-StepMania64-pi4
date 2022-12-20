@@ -23,7 +23,7 @@ fi
 
 echo "Updating packages..."
 sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get -y upgrade
 
 echo "Installing git..."
 sudo apt-get install git
