@@ -52,6 +52,8 @@ chmod +x /home/pi/Desktop/StepMania64.desktop
 chmod +x /home/pi/.config/autostart/StepMania64.desktop
 chmod +x /home/pi/Stepmania64/stepmania
 
+gsettings set org.gnome.mutter check-alive-timeout 60000
+
 cd /home/pi/Stepmania64
 
 ./stepmania
