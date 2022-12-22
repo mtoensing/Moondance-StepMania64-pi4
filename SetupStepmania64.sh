@@ -33,6 +33,7 @@ sudo apt-get install libopengl0
 
 echo "Installing latest mesa packages..."
 sudo apt-get install libglu1-mesa
+sudo apt-get install libusb-dev
 
 echo "Cloning repository"
 git clone https://github.com/mtoensing/Moondance-StepMania64-pi4.git
